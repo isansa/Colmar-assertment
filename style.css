@@ -1,15 +1,40 @@
+:root {
+    --darkblue: #354A54;
+    --lightblue: #5899B6;
+    --paleblue: #98AFBA;
+    --whiteblue: #F0FBFF;
+
 * {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
 }
-header {
+
+/*nav bar*/
+
+nav {
     display: flex;
     justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: ;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
     align-items: center;
 }
 
 @media screen and (max-width: 425px) {
-    header.logo{
+    {
     display: none;
+    }
 }
